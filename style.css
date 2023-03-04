@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+input[type="text"],
+select,
+textarea {
+  border: none;
+  border-radius: 3px;
+  padding: 8px 4px;
+  outline: none;
+}
+
+button {
+  border: none;
+  background: purple;
+  color: #fff;
+  font-size: 14px;
+  padding: 14px 8px;
+  border-radius: 5px;
+  margin: 20px 15px;
+}
+
+/* ENdD OF GLOBAL STYLES */
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  background-color: goldenrod;
+}
+
+.header nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+nav .nav-lists {
+  display: flex;
+}
+
+.nav-lists .list {
+  margin-right: 15px;
+}
+
+.nav-lists .list a {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* END of NAV BAR STYLING */
+
+.header-section .header-content {
+  display: flex;
+  width: 100%;
+  background-color: rgb(28, 28, 58);
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-content h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* END OF HEADER STYLING */
+
+.main-section {
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 15px;
+}
+
+.home-section .img {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  height: 500px;
+  width: 450px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+
+.abtmain-introduction,
+.abtgoal,
+.abtbackground {
+  margin-bottom: 18px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+}
+
+#contact h2 {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#contact form {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+

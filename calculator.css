@@ -1,0 +1,49 @@
+.calculator-section {
+  margin-top: 25px;
+}
+
+.calculator-section .calculator-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: rgb(51, 50, 50);
+}
+
+.calculator-wrapper .calc-input {
+  background-color: grey;
+  height: 64px;
+}
+
+.calc-input .input-display {
+  width: 100%;
+  height: inherit;
+}
+
+.calculator-wrapper .calculator-keys {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+
+.calculator-keys .btn {
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  flex-basis: calc(100% / 5);
+  color: #fff;
+}
+
+
+/* TABLE CALCULATOR STYLES */
+
+td {
+  border: 2px solid black;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+}
